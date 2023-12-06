@@ -1,0 +1,246 @@
+
+
+.root {
+  display: flex;
+
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+button.token-btn {
+  border-radius: 12px;
+  color: #fff;
+  background-color: #072d7a;
+  margin-top: 1em;
+}
+
+section {
+  margin: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #f3f4f6;
+  color: #090909;
+  border-color: #090909;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+th:after,
+td:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+button.btn-style {
+  border-radius: 12px;
+  color: #fff;
+  background-color: #072d7a;
+}
+
+div.top-title {
+  text-align: left;
+}
+
+div.top-btn {
+  text-align: right;
+}
+
+.modal {
+  .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+  }
+}
+
+.modal.show {
+  display: block;
+}
+
+.popup-btn {
+  background-color: #072d7a;
+  color: #fbf9f9;
+  border-color: #090909;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.token-btn {
+  border-radius: 12px;
+}
+
+div.top-btn {
+  text-align: right;
+}
+
+button#refreshBtn {
+  margin-right: 10px;
+}
+
+.modal-heading-div {
+  text-align: center;
+}
+
+.popup-heading {
+  color: #072d7a;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button.popup-btn {
+  width: 48%;
+  padding: 12px;
+  margin-top: 15px;
+  color: #fff;
+  background-color: #072d7a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.popup-btn:hover {
+  background-color: #051d4d;
+}
+
+button#cancelBtn {
+  background-color: #ccc;
+  color: #333;
+  margin-right: 0;
+}
+
+.table-heading{
+  color: #722F37;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    display: flex;
+  }
+
+  header {
+    padding: 0.5em;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  button.token-btn {
+    margin-top: 0.5em;
+  }
+
+  .mainPage {
+    display: block;
+  }
+}
